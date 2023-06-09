@@ -6,8 +6,9 @@ This is a chess variant for 4 people.
 Each player can be a 'Human' or a 'Computer'.
 For every 'Human' player the program will ask for a valid move, and for every 'Computer' player the program will compute a move that is in his opinion :) best for current player.
 Engine implementation uses:
+- bitboard representation
 - iterative deepening
-- alpha-beta pruning
+- alpha-beta pruning (paranoid assumption)
 - basic heuristic evaluation
 ## Rules
 Ruleset is similar to chess, written in ruleset.txt file.
