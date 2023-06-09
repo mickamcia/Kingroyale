@@ -1,0 +1,36 @@
+1. We have 4 players (which is greater than 2):
+    red     (left bottom corner)
+    green   (right bottom corner)
+    yellow  (right top corner)
+    blue    (left top corner)
+
+2. Players move in a specific order:
+    red -> green -> yellow -> blue
+    
+3. If a player can not play any move, he skips his turn
+
+4. We distinguish 6 pieces:
+    Knight
+        regular chess knight
+
+    Bishop
+        regular chess bishop
+
+    Rook
+        regular chess rook
+
+    Queen
+        regular chess queen
+        only obtained by pawn promotion
+
+    King
+        moves and captures like a regular chess king
+        there is no such thing as check; may be captured
+
+    Pawn    
+        captures diagonally (one square, all 4 directions)
+        can move in all 4 straight lines by one square if empty
+        must promote to Queen if in furthest opposite line or column
+        (f. e. Red Pawn will promote if in column H or row 8)
+
+5. Last King standing wins!
