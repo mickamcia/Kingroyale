@@ -1,4 +1,4 @@
-1. We have 4 players (which is greater than 2):
+1. We have 4 players:
     red     (left bottom corner)
     green   (right bottom corner)
     yellow  (right top corner)
