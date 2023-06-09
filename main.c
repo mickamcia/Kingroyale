@@ -706,7 +706,7 @@ int main(){
     set_standard_position(&position);
     print_position(&position);
 
-    enum Player_type players[] = {Computer, Computer, Computer, Computer};
+    enum Player_type players[] = {Human, Computer, Computer, Computer};
 
     while(1){
         for(int i = 0; i < 4; i++){
